@@ -1,0 +1,35 @@
+{
+    "name": "onkud/data-structures",
+    "description": "Stack, Queue, and LinkedList implementations with Laravel and Symfony support",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "OnKud\\DataStructures\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Onur Kudret"
+        }
+    ],
+    "require": {
+      "php": "^8.1"
+    },
+  "suggest": {
+    "illuminate/support": "Required to use the Laravel ServiceProvider (^9.0 || ^10.0 || ^11.0)",
+    "symfony/http-kernel": "Required to use the Symfony Bundle (^6.0 || ^7.0)"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "OnKud\\DataStructures\\Bridges\\Laravel\\DataStructureServiceProvider"
+      ]
+    }
+  },
+    "require-dev": {
+      "illuminate/support": "^13.35",
+      "symfony/http-kernel": "^6.0 || ^7.0",
+      "symfony/dependency-injection": "^6.0 || ^7.0"
+    }
+}

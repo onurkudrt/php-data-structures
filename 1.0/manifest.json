@@ -1,0 +1,5 @@
+{
+  "bundles": {
+    "OnKud\\DataStructures\\Bridges\\Symfony\\DataStructuresBundle": ["all"]
+  }
+}

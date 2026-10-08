@@ -1,0 +1,4 @@
+/vendor/
+composer.lock
+NOTE.md
+/.idea/
