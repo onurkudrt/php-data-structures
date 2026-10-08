@@ -13,8 +13,8 @@ A lightweight PHP implementation and benchmark comparing core data structures: *
 
 1. Clone or download the repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/onurkudrt/php-data-structures.git
+   cd php-data-structures
    ```
 
 2. Install dependencies:
@@ -51,7 +51,7 @@ A lightweight PHP implementation and benchmark comparing core data structures: *
     
     class DemoController
     {
-        public function __invoke(StackInterface $stack, LinkedListInterface$list)
+        public function __invoke(StackInterface $stack, LinkedListInterface $list)
         {
             $stack->push('item');
             // ...
@@ -93,7 +93,7 @@ If this package is not published on Packagist, users can require it directly fro
       "repositories": [
         {
           "type": "vcs",
-          "url": "[https://github.com/onurkudrt/php-data-structures.git](https://github.com/onurkudrt/php-data-structures.git)"
+          "url": "https://github.com/onurkudrt/php-data-structures.git"
         }
       ]
     }
@@ -102,5 +102,5 @@ If this package is not published on Packagist, users can require it directly fro
 2. Require the package via Composer:
 
     ````bash
-    composer require onkud/data-structures:dev-master
+    composer require onkud/data-structures:dev-main
     ````
